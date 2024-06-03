@@ -1,0 +1,396 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+  }
+  :root{
+    --space-top: 100px;
+    --space-bootom: 100px
+  }
+
+
+
+/*----nav----*/
+.header{
+    width: 100%;
+    height: auto;
+   background-image: url(../images/hero-bg.jpg);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed
+}
+.navbar-light .navbar-brand{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff!important;
+    position: relative;
+    z-index: 3;
+}
+nav .collapse .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+nav .collapse .search{
+    margin-left: 35px;
+    cursor: pointer;
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: #ffffff;
+}
+.slider {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slider .box{
+    margin-top: 200px;
+}
+.slider .box .text h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.slider .box .text h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+.slider .box .text h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.slider .box .text p{
+    color: #ffffff;
+    font-size: 16px;
+}
+.slider .box .button{
+    padding: 10px 15px;
+}
+.slider .box .button .contact{
+    padding: 10px 15px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.slider .box .button .contact a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+.slider .box .button .contact:hover{
+   background-color: #ffffff;
+}
+.slider .box .button .contact a:hover{
+   color: #000000;
+ }
+ .owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    opacity: 1;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    outline: 2px solid #ffffff;
+    background-color: transparent;
+}
+/* .navbar-expand-lg .navbar-nav .nav-item .nav-link-active {
+    margin: 10px 30px;
+    padding: 0;
+    padding-bottom: 3px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+} */
+
+
+/*----nav----*/
+/*----CHOOSE US----*/
+.choose{
+    padding-top: var(--space-top);
+    padding-bottom: var(--space-bootom);
+    background-image: url(../images/us-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.choose .text-heading h2{
+    font-size: bold;
+    color: #ffffff;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+.choose .text-heading h2::before{
+    content: ' ';
+    position: absolute;
+    left: 120px;
+    bottom: -10px;
+    width: 40px;
+    height: 5px;
+    background: #ff2953;
+}
+.choose .choose-text{
+    margin-top: 50px;
+}
+.choose .choose-text image img{
+    margin: 10px 0;
+}
+.choose .choose-text{
+    text-align: center;
+    align-items: center;
+}
+.choose .choose-text .title-text h2{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.choose .choose-text .title-text p{
+    margin: 10px 0;
+    font-size: 16px;
+}
+/*----CHOOSE US----*/
+/*----HEALTHY----*/
+.healthy{
+    padding-top: var(--space-top);
+    padding-bottom: var(--space-bootom);
+    background-image: url(../images/healthy-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.healthy .heading-healthy{
+   text-align: center;
+}
+.healthy .heading-healthy h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.healthy .heading-healthy p{
+    width: 95%;
+    line-height: 2;
+}
+
+.healthy .heading-healthy .button .contact{
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.healthy .heading-healthy .button .contact a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.healthy .heading-healthy .button .contact:hover{
+   background-color: #ffffff;
+}
+.healthy .heading-healthy .button .contact a:hover{
+   color: #000000;
+ }
+ /*----HEALTHY----*/
+  /*----OUR GYM----*/
+.ourgym{
+    padding-top: var(--space-top);
+    padding-bottom: var(--space-bootom);
+    background-image: url(../images/trainer-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.ourgym .heading-gym{
+    text-align: center;
+}
+.ourgym .heading-gym h2{
+font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.ourgym .heading-gym h2::after{
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 40px;
+    height: 5px;
+    background: #ff2953;
+}
+.ourgym .box{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+.ourgym .box h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.ourgym .box .image-box{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.ourgym .box .social-box .social-list{
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+  padding: 12px 45px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin-top: -25px;
+  position: absolute;
+  left: 58px;
+}
+@media (max-width: 768px) {
+    .ourgym .box .social-box .social-list{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+.ourgym .box .social-box ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+ /*----OUR GYM----*/
+/*----contact----*/
+.contact-info{
+     background-color: #27223f;
+    color: #ffffff;
+    display: flex;
+    gap: 15px;
+}
+.contact-info .content-left,
+.contact-info .content-right {
+    flex: 1;
+}
+.contact-info .image-contact img{
+   max-width: 100%;
+}
+.contact-info .content-right .cotact-details{
+    margin-top: var(--space-top);
+}
+.contact-info .content-right .cotact-details h2{
+    font-weight: bold;
+    position: relative;
+}
+.contact-info .content-right .button-form{
+    display: flex;
+    width: 90%;
+}
+
+.contact-info .content-right .cotact-details h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    bottom: -10px;
+    width: 55px;
+    height: 5px;
+    background-color: #ff2953;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.contact-info .content-right input {
+    width: 90%;
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+    color: #000000;
+    margin-top: 25px;
+    padding: 12px;
+  }
+  .contact-info .content-right input.message-box {
+    padding: 45px 12px;
+  }
+  .contact-info .content-right button{
+    padding: 10px 65px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    background: #ff2953;
+    margin: 45px 0 0 auto;
+    text-transform: uppercase;
+    justify-content: end;
+  }
+  .contact-info .content-right .button-form button a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+/*----contact----*/
+.location{
+    background-color: #252233;
+   padding: 50px 0;
+   text-align: center;
+}
+.location .item a{
+   font-size: 20px;
+   color: #ffffff;
+   margin-top: 10px;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+}
+/*----contact----*/
+/*----footer----*/
+.footer_section {
+    background-color: #fbfdfd;
+    padding: 20px;
+    font-weight: 500;
+  }
+  
+  .footer_section p {
+    color: #292929;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer_section a {
+    color: #292929;
+  }
+  /*----footer----*/
+
+  @media (max-width: 768px) {
+    .ourgym .box .social-box .social-list{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact-info{
+        flex-direction: column;
+    }
+    .contact-info .content-right{
+        margin-left: 45px;
+    }
+    .choose .text-heading h2::before {
+        content: ' ';
+        position: absolute;
+        left: 110px;
+        bottom: -10px;
+        width: 40px;
+        height: 5px;
+        background: #ff2953;
+    }
+    .ourgym .heading-gym h2::after {
+        content: ' ';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        width: 40px;
+        height: 5px;
+        background: #ff2953;
+    }
+}
